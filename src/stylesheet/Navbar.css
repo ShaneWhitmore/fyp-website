@@ -30,13 +30,14 @@
 }
 
 
-.Title h2{
+.Title h2 {
     font-size: 2rem;
     font-weight: 470;
     margin: 0;
     color: #333;
 
 }
+
 .Content {
     flex: 3;
     background-color: #FDFDFD;
@@ -153,4 +154,108 @@
     max-width: 110px;
     aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .Title-col {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    .Title {
+        background-color: #FDFDFD;
+        margin: auto;
+        border-radius: 10px;
+        padding: 1%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .Title h1 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+        color: #333;
+    }
+
+
+    .Title h2 {
+        font-size: 1rem;
+        font-weight: 470;
+        margin: 0;
+        color: #333;
+
+    }
+
+
+    .Content {
+        flex: 3;
+        background-color: #FDFDFD;
+        border-radius: 10px;
+        margin: 2% 2% 2% 1%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5vh;
+        padding: 5% 2% 5% 2%;
+    }
+    
+    .Content-left {
+        margin: auto;
+    }
+    
+    .Content-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        gap: 2%;
+    }
+    
+    .Poster {
+        background-color: yellow;
+        width: 30vh;
+        height: 30vh;
+    }
+    
+    .Profile {
+        background-color: lightcoral;
+        height: 15vh;
+        width: 15vh;
+    }
+    
+    .Links {
+        background-color: green;
+        height: 15vh;
+        width: 15vh;
+    }
+    
+
+
+    .Awards {
+        background-color: #FDFDFD;
+        margin-bottom: 1%;
+        padding: 1%;
+        flex: 1;
+        display: flex;
+        max-height: 90px;
+        object-fit: contain;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
 }
