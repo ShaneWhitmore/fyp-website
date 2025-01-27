@@ -2,17 +2,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 
-.Title-col{
+.Title-col {
     flex: 2;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
 }
+
 .Title {
-    
     background-color: #FDFDFD;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -21,16 +22,24 @@
 }
 
 
-.Title h1,
-h2 {
+.Title h1 {
     font-size: 2rem;
     font-weight: 600;
     margin: 0;
     color: #333;
 }
 
-.Content{
-    background-color: #FDFDFD ;
+
+.Title h2{
+    font-size: 2rem;
+    font-weight: 470;
+    margin: 0;
+    color: #333;
+
+}
+.Content {
+    flex: 3;
+    background-color: #FDFDFD;
     border-radius: 10px;
     margin: 2% 2% 2% 1%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,11 +50,11 @@ h2 {
     padding: 5% 2% 5% 2%;
 }
 
-.Content-left{
+.Content-left {
     margin: auto;
 }
 
-.Content-right{
+.Content-right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,19 +62,20 @@ h2 {
     margin: auto;
     gap: 10vh;
 }
-.Poster{
+
+.Poster {
     background-color: yellow;
     width: 50vh;
     height: 50vh;
 }
 
-.Profile{
+.Profile {
     background-color: lightcoral;
     height: 20vh;
     width: 20vh;
 }
 
-.Links{
+.Links {
     background-color: green;
     height: 20vh;
     width: 20vh;
@@ -78,67 +88,69 @@ h2 {
     padding: 1%;
     flex: 1;
     display: flex;
-    height: 100px;
-    width: 100px;
+    max-height: 90px;
     object-fit: contain;
+    align-items: center;
     justify-content: space-between;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
-.sdg-logo{
-    height: 100px;
-    width: 100px;
+.sdg-logo {
+    width: 100%;
     max-width: 100px;
-    max-height: 100px ;
+    padding: 1%;
+    aspect-ratio: 1;
     box-shadow: none;
-   
+
 }
 
 .goal1,
 .goal3,
 .goal10,
 .goal14,
-.goal15{
-   
-    height: 100px;
-    width: 100px;
+.goal15 {
+    width: 95%;
+    max-width: 100px;
+    aspect-ratio: 1;
     transition: height 0.3s ease-in-out, width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     box-shadow: none;
 }
 
 
-.goal1:hover{
-    height: 110px;
-    width: 110px; 
+.goal1:hover {
+    width: 100%;
+    max-width: 110px;
+    aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 
-.goal3:hover{
-    height: 110px;
-    width: 110px;
+.goal3:hover {
+    width: 100%;
+    max-width: 110px;
+    aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 
-.goal10:hover{
-    height: 110px;
-    width: 110px;
+.goal10:hover {
+    width: 100%;
+    max-width: 110px;
+    aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.goal14:hover{
-    height: 110px;
-    width: 110px;
+.goal14:hover {
+    width: 100%;
+    max-width: 110px;
+    aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.goal15:hover{
-    height: 110px;
-    width: 110px;
+.goal15:hover {
+    width: 100%;
+    max-width: 110px;
+    aspect-ratio: 1;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-
-
