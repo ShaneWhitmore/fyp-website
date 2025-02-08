@@ -1,7 +1,205 @@
-.Body{
+.Body {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
 
+.Content p {
+    font-size: 1rem;
+    font-weight: 470;
+}
+
+
+.Content {
+    flex: 3;
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    margin: 0% 2% 2% 1%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    max-width: 59%;
+}
+
+.Profile-information {
+    flex: 1;
+
+    margin: auto;
+    max-width: 20%;
+
+}
+
+
+.Content-Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15vh;
+}
+
+.Content-left {
+    flex: 2;
+    margin: auto;
+}
+
+.Content-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.Poster {
+    max-height: 60vh;
+    border: 1px solid black;
+
+}
+
+.Profile {
+    transform: rotate(270deg);
+    max-width: 25vh;
+}
+
+.Links {
+    background-color: green;
+    height: 18vh;
+    width: 18vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+        flex-direction: column-reverse;
+    }
+
+    .Content {
+        flex: 3;
+        background-color: #FDFDFD;
+        border-radius: 10px;
+        margin: 5%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+        gap: 5vh;
+    }
+
+    .Content-description p {
+        
+        font-size: small;
+    }
+
+    .Content-left {
+        margin: auto;
+    }
+
+    .Content-Images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Content-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        gap: 2%;
+    }
+
+    .Poster {
+        width: 100%;
+        max-width: 60vh;
+    }
+
+    .Profile {
+        background-color: lightcoral;
+        height: 15vh;
+        width: 15vh;
+    }
+
+    .Links {
+        background-color: green;
+        height: 15vh;
+        width: 15vh;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 920px) {
+
+    .Body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+        flex-direction: column-reverse;
+    }
+
+    .Content {
+        flex: 3;
+        background-color: #FDFDFD;
+        border-radius: 10px;
+        margin: 2% 2% 2% 1%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vh;
+        padding: 5% 10% 5% 10%;
+
+    }
+
+    .Content-Images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Content-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        gap: 2vh;
+    }
+
+    .Poster {
+        width: 100%;
+        max-width: 40vh;
+    }
+
+    .Profile {
+        background-color: lightcoral;
+        height: 15vh;
+        width: 15vh;
+    }
+
+    .Links {
+        background-color: green;
+        height: 15vh;
+        width: 15vh;
+    }
+
+}

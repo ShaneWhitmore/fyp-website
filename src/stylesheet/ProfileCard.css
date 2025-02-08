@@ -1,0 +1,49 @@
+.profileCard {
+    background-color: #FDFDFD;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 60vh;
+
+
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    margin: auto;
+
+
+}
+
+.profileImage{
+    padding: 2vh;
+    aspect-ratio: 1;
+    border-radius: 1%;
+
+}
+
+.profileCard:hover {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+    width: 41vh;
+    height: 61vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .credentials p{
+        font-size: small;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 920px) {
+
+
+
+}
+

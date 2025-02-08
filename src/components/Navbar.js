@@ -12,36 +12,10 @@ import goal15 from '../images/Goal 15.png';
 export default function Navbar() {
     return (
         <div className="Navbar">
-            <div className="Title-col">
-                <div className="Title">
-                    <h1>Technology & The Body</h1>
-                    <h2>A non-invasive, Inexpensive Prosthetic Prototype</h2>
-                </div>
 
-
-                <div className="Content">
-
-                    <div className="Content-left">
-                        <div className="Poster">
-                            <h2>Poster</h2>
-                        </div>
-                    </div>
-
-                    <div className="Content-right">
-
-                        <div className="Profile">
-                            <h2>Profile Picture</h2>
-                        </div>
-
-
-                        <div className="Links">
-                            <h2>Links</h2>
-                        </div>
-                    </div>
-
-
-
-                </div>
+            <div className="Title">
+                <h1>Technology & The Body</h1>
+                <h2>A non-invasive, Inexpensive Prosthetic Prototype</h2>
             </div>
 
 
@@ -71,10 +45,6 @@ export default function Navbar() {
                     <img src={goal15} alt="Goal 15" className="goal15" />
                 </a>
             </div>
-
-
-
-
         </div>
     );
 }

@@ -2,18 +2,14 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
     width: 100%;
 }
 
-.Title-col {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: flex-start;
-}
 
 .Title {
+    flex: 2;
     background-color: #FDFDFD;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -36,50 +32,6 @@
     margin: 0;
     color: #333;
 
-}
-
-.Content {
-    flex: 3;
-    background-color: #FDFDFD;
-    border-radius: 10px;
-    margin: 2% 2% 2% 1%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5% 2% 5% 2%;
-}
-
-.Content-left {
-    margin: auto;
-}
-
-.Content-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    gap: 10vh;
-}
-
-.Poster {
-    background-color: yellow;
-    width: 50vh;
-    height: 50vh;
-}
-
-.Profile {
-    background-color: lightcoral;
-    height: 20vh;
-    width: 20vh;
-}
-
-.Links {
-    background-color: green;
-    height: 20vh;
-    width: 20vh;
 }
 
 
@@ -198,54 +150,6 @@
 
     }
 
-
-    .Content {
-        flex: 3;
-        background-color: #FDFDFD;
-        border-radius: 10px;
-        margin: 2% 2% 2% 1%;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 5vh;
-        padding: 5% 2% 5% 2%;
-    }
-
-    .Content-left {
-        margin: auto;
-    }
-
-    .Content-right {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto;
-        gap: 2%;
-    }
-
-    .Poster {
-        background-color: yellow;
-        width: 30vh;
-        height: 30vh;
-    }
-
-    .Profile {
-        background-color: lightcoral;
-        height: 15vh;
-        width: 15vh;
-    }
-
-    .Links {
-        background-color: green;
-        height: 15vh;
-        width: 15vh;
-    }
-
-
-
     .Awards {
         background-color: #FDFDFD;
         margin-bottom: 1%;
@@ -285,46 +189,6 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .Content {
-        flex: 3;
-        background-color: #FDFDFD;
-        border-radius: 10px;
-        margin: 2% 2% 2% 1%;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 2vh;
-        padding: 5% 2% 5% 2%;
-    }
-
-    .Content-right {
-        display: flex;
-        flex-direction: column  ;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto;
-        gap: 2vh;
-    }
-
-    .Poster {
-        background-color: yellow;
-        width: 30vh;
-        height: 30vh;
-    }
-
-    .Profile {
-        background-color: lightcoral;
-        height: 15vh;
-        width: 15vh;
-    }
-
-    .Links {
-        background-color: green;
-        height: 15vh;
-        width: 15vh;
-    }
 
     .Awards {
         background-color: #FDFDFD;
