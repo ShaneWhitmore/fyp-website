@@ -5,10 +5,7 @@
     flex-direction: row;
 }
 
-.Content p {
-    font-size: 1rem;
-    font-weight: 470;
-}
+
 
 
 .Content {
@@ -27,10 +24,12 @@
 
 .Profile-information {
     flex: 1;
-
     margin: auto;
     max-width: 20%;
 
+}
+.Content-description p {   
+    font-size: medium;
 }
 
 
@@ -62,15 +61,17 @@
 
 }
 
-.Profile {
+.Prototype {
     transform: rotate(270deg);
     max-width: 25vh;
 }
 
 .Links {
+    font-size: small;
     background-color: green;
     height: 18vh;
     width: 18vh;
+
 }
 
 
@@ -82,6 +83,7 @@
         align-items: center;
         padding: 2%;
         flex-direction: column-reverse;
+        margin: auto;
     }
 
     .Content {
@@ -116,7 +118,7 @@
 
     .Content-right {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: auto;
@@ -128,10 +130,9 @@
         max-width: 60vh;
     }
 
-    .Profile {
-        background-color: lightcoral;
-        height: 15vh;
-        width: 15vh;
+    .Prototype {
+        transform: rotate(0deg);
+        max-width: 25vh;    
     }
 
     .Links {
@@ -178,7 +179,7 @@
 
     .Content-right {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: auto;
@@ -190,10 +191,9 @@
         max-width: 40vh;
     }
 
-    .Profile {
-        background-color: lightcoral;
-        height: 15vh;
-        width: 15vh;
+    .Prototype {
+        transform: rotate(270deg);
+        max-width: 25vh;    
     }
 
     .Links {

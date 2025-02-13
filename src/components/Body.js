@@ -24,7 +24,7 @@ export default function Body() {
                     </div>
 
                     <div className="Content-right">
-                        <img src={Prototype} alt="Poster" className="Profile" />
+                        <img src={Prototype} alt="Poster" className="Prototype" />
 
 
                         <div className="Links">
