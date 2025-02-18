@@ -12,7 +12,8 @@
     flex: 3;
     background-color: #FDFDFD;
     border-radius: 10px;
-    margin: 0% 2% 2% 1%;
+    margin: 0% 0% 2% 1%;
+    padding: 1%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -20,14 +21,19 @@
     flex-direction: column;
     padding: 2%;
     max-width: 59%;
+
+
 }
 
 .Profile-information {
     flex: 1;
     margin: auto;
-    max-width: 20%;
+    max-width: 100%;
+    height: auto;
 
 }
+
+
 .Content-description p {   
     font-size: medium;
 }
@@ -52,7 +58,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
 .Poster {
@@ -62,8 +67,8 @@
 }
 
 .Prototype {
-    transform: rotate(270deg);
-    max-width: 25vh;
+    transform-origin: center;
+    max-width: 70vh;
 }
 
 .Links {
@@ -100,6 +105,10 @@
         gap: 5vh;
     }
 
+    .Profile-information {
+        width: 100%;
+    }
+
     .Content-description p {
         
         font-size: small;
@@ -131,7 +140,6 @@
     }
 
     .Prototype {
-        transform: rotate(0deg);
         max-width: 25vh;    
     }
 
@@ -192,8 +200,8 @@
     }
 
     .Prototype {
-        transform: rotate(270deg);
-        max-width: 25vh;    
+        width: 30vh;
+        max-width: 45vh;    
     }
 
     .Links {

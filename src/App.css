@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -13,11 +11,18 @@
   }
 }
 .App{
+  height: 100%;
+  margin: 0;
+  padding: 0;  
   background-color: #F9F4F1;
   background-image: radial-gradient(#bbb 1px, transparent 1px);
   background-size: 25px 25px;
+  overflow-y: hidden;   
   width: 100%;
-  min-height: 100vh;
+  text-align: center;
+
+  
+
 }
 
 

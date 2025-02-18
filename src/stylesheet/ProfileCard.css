@@ -10,6 +10,7 @@
     height: 60vh;
     transition: height 0.3s ease-in-out, width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     margin: auto;
+
 }
 
 .profileImage{
@@ -21,6 +22,7 @@
 
 .credentials p{
     font-size: small;
+    width: 100%;
 }
 
 .profileCard:hover {
@@ -32,8 +34,22 @@
 
 @media only screen and (max-width: 600px) {
 
+    .profileCard {
+        width: 25vh;
+        max-height: 40vh;
+        height: auto;
+        margin: auto;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        
+        
+    
+    }
+
     .credentials p{
         font-size: small;
+        margin: 2px 0;
+        line-height: 1.2;
     }
 
 
@@ -41,6 +57,21 @@
 
 
 @media only screen and (min-width: 600px) and (max-width: 920px) {
+    .profileCard {
+        width: 30vh;
+        max-height: 45vh;
+        height: auto;
+        margin: auto;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        
+        
+    
+    }
+
+    .credentials p{
+        font-size: medium;
+    }
 
 
 
