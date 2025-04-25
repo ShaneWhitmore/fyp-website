@@ -1,7 +1,7 @@
 import React from "react";
 import '../stylesheet/Body.css';
 import ProfileCard from '../components/ProfileCard.js'
-import Poster from '../images/Poster.png';
+import Poster from '../images/FYP Poster.png';
 import Prototype from '../images/ArmRender.png';
 
 export default function Body() {
