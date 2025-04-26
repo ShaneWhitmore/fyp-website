@@ -3,6 +3,7 @@ import '../stylesheet/Body.css';
 import ProfileCard from '../components/ProfileCard.js'
 import Poster from '../images/FYP Poster.png';
 import Prototype from '../images/ArmRender.png';
+import Link from '../images/youtubeIcon.png';
 
 export default function Body() {
     return (
@@ -32,9 +33,10 @@ export default function Body() {
 
                         <img src={Prototype} alt="Poster" className="Prototype" />
 
-                        <div className="Links">
-                            <h2>Demo Video Link Coming Soon</h2>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=xkLfBaC3v_s" target="_blank" rel="noopener noreferrer">
+                            <img src={Link} alt="Demo Video Link" className="Links" />
+                        </a>
+
 
                     </div>
 

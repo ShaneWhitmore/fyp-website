@@ -72,11 +72,8 @@
 }
 
 .Links {
-    font-size: small;
-    background-color: green;
-    height: 18vh;
-    width: 18vh;
-
+    height: 25vh;
+    width: auto;
 }
 
 
@@ -144,9 +141,8 @@
     }
 
     .Links {
-        background-color: green;
-        height: 15vh;
-        width: 15vh;
+        height: 30vh;
+        width: auto;
     }
 
 
@@ -205,9 +201,8 @@
     }
 
     .Links {
-        background-color: green;
-        height: 15vh;
-        width: 15vh;
+        height: 35vh;
+        width: auto;
     }
 
 }
