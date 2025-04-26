@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/fyp-website/static/css/main.dc454d8d.css",
-    "main.js": "/fyp-website/static/js/main.7764b37e.js",
+    "main.css": "/fyp-website/static/css/main.53d99504.css",
+    "main.js": "/fyp-website/static/js/main.f2b57095.js",
     "static/js/488.f6916f24.chunk.js": "/fyp-website/static/js/488.f6916f24.chunk.js",
-    "static/media/Poster.png": "/fyp-website/static/media/Poster.ce641c494562d6a7427f.png",
+    "static/media/FYP Poster.png": "/fyp-website/static/media/FYP Poster.8506e55c3c7b7f6ee4bc.png",
     "static/media/profile picture.JPG": "/fyp-website/static/media/profile picture.7aff073d6f0569a70bb6.JPG",
     "static/media/SDG_LOGO.png": "/fyp-website/static/media/SDG_LOGO.53d61729596ad775c036.png",
     "static/media/Goal 14.jpg": "/fyp-website/static/media/Goal 14.d7a30a1b0beb35d95e04.jpg",
@@ -13,12 +13,12 @@
     "static/media/Goal 10.png": "/fyp-website/static/media/Goal 10.1013c86a981613debc17.png",
     "static/media/Goal 1.png": "/fyp-website/static/media/Goal 1.7dacf187231ff00121e3.png",
     "index.html": "/fyp-website/index.html",
-    "main.dc454d8d.css.map": "/fyp-website/static/css/main.dc454d8d.css.map",
-    "main.7764b37e.js.map": "/fyp-website/static/js/main.7764b37e.js.map",
+    "main.53d99504.css.map": "/fyp-website/static/css/main.53d99504.css.map",
+    "main.f2b57095.js.map": "/fyp-website/static/js/main.f2b57095.js.map",
     "488.f6916f24.chunk.js.map": "/fyp-website/static/js/488.f6916f24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc454d8d.css",
-    "static/js/main.7764b37e.js"
+    "static/css/main.53d99504.css",
+    "static/js/main.f2b57095.js"
   ]
 }
